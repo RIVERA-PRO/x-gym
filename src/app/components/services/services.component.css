@@ -1,0 +1,63 @@
+.servicesContain{
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4rem;
+}
+.servicesContain h1{
+    font-size: 40px;
+    padding: 0px 24%;
+    color: var(--text-color);
+}
+.servicesContain span{
+  background-color: var(--color1);
+}
+
+.cardsServices{
+    gap: 2rem;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 4rem;
+    place-content: center;
+}
+
+.cardService{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    transition: all 0.2s linear;
+}
+.cardService img{
+    width: 60px;
+    padding: 10px;
+    border-radius: 100%;
+    transition: all 0.2s linear;
+}
+.cardService:hover img{
+    background-color: var(--color1);
+    transition: all 0.2s linear;
+}
+.cardService h3{
+    font-size: 20px;
+    color: var(--text-color);
+}
+.cardService p{
+    font-size:14px;
+    color: var(--text-color2);
+}
+@media (max-width: 700px) {
+    .servicesContain h1{
+        font-size: 30px;
+        padding: 0px 0%;
+      
+    }
+    
+}
