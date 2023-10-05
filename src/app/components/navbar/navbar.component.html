@@ -1,0 +1,25 @@
+<header>
+
+    <nav class="navbar ">
+
+        <a class="logo" href="#"><img src="../../../assets/img/logo.png" alt="logo"></a>
+
+        <div class='nav_items  {{isNavbarOpen && "open"}}'>
+            <button (click)="toggleNavbar()" class="close">
+                <a class="logo_nav" href="#"><img src="../../../assets/img/logo.png" alt="logo"></a>
+                X
+            </button>
+            <a href="">Home</a>
+            <a href=""> About Us</a>
+            <a href="">Class</a>
+            <a href="">News</a>
+            <a href="" class="contact"> Contact</a>
+        </div>
+        <button (click)="toggleNavbar()" class="nav_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+</header>
