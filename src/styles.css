@@ -97,10 +97,3 @@ to {
       -o-transform: translateY(-4%);
 }
   }
-
-  @media (max-width: 700px) {
-    .home h1, a {
-      animation: none; /* Desactiva la animación */
-    }
-  }
-  

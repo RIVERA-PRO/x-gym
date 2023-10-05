@@ -5,17 +5,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
+import { ServicesComponent } from './components/services/services.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: HomeComponent
   },
-  {
-    path: '',
- redirectTo:'/home',
- pathMatch:'full'
-  },
+  
   {
     path: 'about',
     component: AboutComponent
@@ -27,7 +25,7 @@ const routes: Routes = [
     AppComponent, 
     NavbarComponent, 
     HomeComponent, 
-    AboutComponent
+    AboutComponent, ServicesComponent, FooterComponent
   ],
   imports: [
     BrowserModule,
