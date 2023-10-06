@@ -8,6 +8,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BgdescountComponent } from './components/bgdescount/bgdescount.component';
+import { ContadorComponent } from './components/contador/contador.component';
 
 const routes: Routes = [
   {
@@ -26,7 +27,7 @@ const routes: Routes = [
     AppComponent, 
     NavbarComponent, 
     HomeComponent, 
-    AboutComponent, ServicesComponent, FooterComponent, BgdescountComponent
+    AboutComponent, ServicesComponent, FooterComponent, BgdescountComponent, ContadorComponent
   ],
   imports: [
     BrowserModule,
