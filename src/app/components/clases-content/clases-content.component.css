@@ -1,0 +1,44 @@
+.clasesContain{
+    gap: 2rem;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 4rem;
+    place-content: center;
+    padding: 100px 10%;
+    transition: all 0.2s linear;
+    text-align: center;
+}
+.clasesCard img{
+    width: 80px;
+    border-radius: 100%;
+   padding: 10px;
+   transition: all 0.2s linear;
+   
+}
+
+.clasesCard h3{
+    font-size: 20px;
+}
+.clasesCard p{
+   color: var(--text-color2);
+}
+.clasesCard:hover img{
+    background-color: var(--color1);
+    transition: all 0.2s linear;
+}
+.clasesCard{
+    padding: 20px 10px;
+    transition: all 0.2s linear;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.clasesCard:hover{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.441);
+    transition: all 0.2s linear;
+}
