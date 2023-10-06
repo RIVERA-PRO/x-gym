@@ -15,6 +15,7 @@ import { ClassComponent } from './components/class/class.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ClasesContentComponent } from './components/clases-content/clases-content.component';
+import { BlogDetailComponent } from './components/blog-detail/blog-detail.component';
 
 const routes: Routes = [
   {
@@ -45,7 +46,7 @@ const routes: Routes = [
     AppComponent, 
     NavbarComponent, 
     HomeComponent, 
-    AboutComponent, ServicesComponent, FooterComponent, BgdescountComponent, ContadorComponent, TrainersComponent, CalculateComponent, ClassComponent, BlogComponent, ContactComponent, ClasesContentComponent
+    AboutComponent, ServicesComponent, FooterComponent, BgdescountComponent, ContadorComponent, TrainersComponent, CalculateComponent, ClassComponent, BlogComponent, ContactComponent, ClasesContentComponent, BlogDetailComponent
   ],
   imports: [
     BrowserModule,
