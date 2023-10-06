@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 2rem;
+    background-color: var(--bg-color);
 }
 .contadorText{
     display: flex;

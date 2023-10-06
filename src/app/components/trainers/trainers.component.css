@@ -1,0 +1,47 @@
+.trainerContain{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.trainerContain h2{
+    color: var(--text-color);
+    font-size: 40px;
+  
+    margin-bottom: 1rem;
+}
+
+.trainerContain span{
+    background-color: var(--color1);
+   
+}
+.trainersCards{
+    gap: 2rem;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    place-content: center;
+}
+.cardTrainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.cardTrainer h4{
+    color: var(--text-color);
+    font-size: 20px;
+}
+.cardTrainer img{
+    border-radius: 100%;
+    width: 140px;
+   
+}

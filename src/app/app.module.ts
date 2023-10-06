@@ -9,6 +9,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BgdescountComponent } from './components/bgdescount/bgdescount.component';
 import { ContadorComponent } from './components/contador/contador.component';
+import { TrainersComponent } from './components/trainers/trainers.component';
 
 const routes: Routes = [
   {
@@ -27,7 +28,7 @@ const routes: Routes = [
     AppComponent, 
     NavbarComponent, 
     HomeComponent, 
-    AboutComponent, ServicesComponent, FooterComponent, BgdescountComponent, ContadorComponent
+    AboutComponent, ServicesComponent, FooterComponent, BgdescountComponent, ContadorComponent, TrainersComponent
   ],
   imports: [
     BrowserModule,
