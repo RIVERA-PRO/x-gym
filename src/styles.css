@@ -27,7 +27,15 @@ a {
   text-decoration: none;
 }
 
-
+.btn_anchor{
+  background-color: var(--color1);
+  padding: 14px 40px;
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 7px;
+  margin-top: 1rem;
+}
 
 .home h1,a{
  

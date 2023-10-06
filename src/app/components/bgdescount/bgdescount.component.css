@@ -1,0 +1,51 @@
+.bgContainer{
+    background-image: url(../../../assets/img/add-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 100px 10%;
+    display: flex;
+   justify-content: space-between;
+}
+.bgContainer h2{
+    color: var(--blanco);
+    font-size: 40px;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+.bgContainer p{
+    color: var(--blanco);
+    font-size: 14px;
+   
+}
+.bgContainer span{
+    color: var(--color1);
+   
+}
+
+.deFlex{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.deFlex img{
+    width: 30px;
+   
+}
+.textBg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+@media (max-width: 1024px) {
+    .bgContainer h2{
+        color: var(--blanco);
+        font-size: 40px;
+        width: 100%;
+    }
+    
+}
