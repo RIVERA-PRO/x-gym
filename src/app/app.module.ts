@@ -10,6 +10,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BgdescountComponent } from './components/bgdescount/bgdescount.component';
 import { ContadorComponent } from './components/contador/contador.component';
 import { TrainersComponent } from './components/trainers/trainers.component';
+import { CalculateComponent } from './components/calculate/calculate.component';
+import { ClassComponent } from './components/class/class.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
   {
@@ -20,6 +24,18 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent
+  },
+  {
+    path: 'class',
+    component: ClassComponent
+  },
+  {
+    path: 'blog',
+    component: BlogComponent
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
   }
 ];
 
@@ -28,7 +44,7 @@ const routes: Routes = [
     AppComponent, 
     NavbarComponent, 
     HomeComponent, 
-    AboutComponent, ServicesComponent, FooterComponent, BgdescountComponent, ContadorComponent, TrainersComponent
+    AboutComponent, ServicesComponent, FooterComponent, BgdescountComponent, ContadorComponent, TrainersComponent, CalculateComponent, ClassComponent, BlogComponent, ContactComponent
   ],
   imports: [
     BrowserModule,

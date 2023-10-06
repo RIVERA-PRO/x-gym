@@ -1,5 +1,5 @@
-.aboutContain{
-    background-image: url(../../../assets/img/header-bg/1.jpg);
+.classContain{
+    background-image: url(../../../assets/img/header-bg/2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
@@ -7,10 +7,9 @@
     display:flex ;
     justify-content: center;
     align-items: center;
-  
    
 }
-.aboutContain h1{
+.classContain h1{
     font-size: 70px;
     border-bottom: 4px solid var(--color1);
     color: var(--blanco);
@@ -20,7 +19,7 @@
 
 @media (max-width: 700px) {
    
-    .aboutContain h1{
+    .classContain h1{
         font-size: 30px;
        
      

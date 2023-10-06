@@ -1,0 +1,96 @@
+.calculateContain{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-content: center;
+    height: 100%;
+    background-color: var(--bg-color);
+    
+  
+}
+
+.img_bg{
+    background-image: url(../../../assets/img/bmi-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.calculateText {
+    padding: 50px 20% 50px 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.calculateText h2{
+    color: var(--text-color);
+    font-size: 30px;
+}
+.calculateText span{
+    background-color: var(--color1);
+   
+}
+.calculateText p{
+    color: var(--text-color2);
+   
+}
+
+.formCalculate{
+    background-color: var(--color2);
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+.formCalculate input{
+    width: 45%;
+    background-color: var(--blanco);
+    padding: 10px;
+    border-radius: 7px;
+   
+}
+.formCalculate button{
+    width: 45%;
+    background-color: var(--color1);
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.result{
+    width: 45%;
+    background-color: var(--blanco);
+    padding: 20px;
+    border-radius: 7px;
+}
+.formCalculate label{
+    color: var(--blanco);
+    padding-top: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .calculateText {
+        padding: 50px 6% ;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .img_bg{
+      height: 100%;
+       
+    }
+    
+}
+@media (max-width: 595px) {
+    
+    .img_bg{
+      height: 300px;
+       
+    }
+    
+}
